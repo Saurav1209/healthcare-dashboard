@@ -17,6 +17,9 @@ function navbar() {
         <div className='login-img'></div>
         <div className='login-name'>Dr. Jose Simmons</div>
         <div className='login-name-prac'> Genral Practitioner</div>
+        <div className='ver-line'></div>
+        <div className='settings'></div>
+        <div className='options'></div>
     </div>
     </div>
   )
