@@ -1,0 +1,121 @@
+.left-container{
+position: absolute;
+top: 122px;
+left: 18px;
+width: 367px;
+height: 1054px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius:10px;
+opacity: 1;
+}
+.title-head{
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+height: 33px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: left;
+font: normal normal 800 24px/33px Manrope;
+letter-spacing: 0px;
+color: #072635;
+opacity: 1;
+}
+.search-icon{
+position: absolute;
+top: 28px;
+right: 20px;
+width: 18px;
+height: 18px;
+background: transparent url('../assests/search_FILL0_wght300_GRAD0_opsz24.png') 0% 0% no-repeat padding-box;
+background-size: contain;  /* Ensures the image is scaled to fit the container */
+background-repeat: no-repeat;  /* Prevents repetition of the image */
+background-position: center; 
+opacity: 1;
+}
+
+.patient-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(367px, 1fr)); /* Responsive columns */
+    /* Space between cards */
+    position: relative;
+    top: 93px;
+    /* left:20px; */
+    /* right: 30px; */
+    width: 367px;
+}
+.patient-card{
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left:20px;
+    padding-right: 16px;
+    width: 317px; /* Full width inside the grid */
+    height: 48px; /* Auto height */
+    /* background: #D8FCF7 0% 0% no-repeat padding-box; */
+}
+.profile-img{
+width: 48px;
+height: 48px;
+background: transparent url('../assests/Layer 2.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+.patient-name{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left:20px;
+    padding-right: 16px;
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    bottom:26px;
+    width: 97px;
+    height: 19px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity:1; 
+}
+.patient-gender{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left:20px;
+    padding-right: 16px;
+position: absolute;
+top: 26px;
+left: 60px;
+bottom: 3px;
+width: 70px;
+height: 19px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: left;
+font: normal normal normal 14px/19px Manrope;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.hor-options{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left:20px;
+    /* padding-right: 16px; */
+position: absolute;
+top: 38px;
+left: 300px;
+bottom: 22px;
+width: 18px;
+height: 4px;
+background: transparent url('../assests/more_horiz_FILL0_wght300_GRAD0_opsz24.png') 0% 0% no-repeat padding-box;
+opacity:1;
+}
